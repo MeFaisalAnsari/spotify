@@ -20,6 +20,7 @@ https://spotify-faisal.netlify.app/
 ![spotify 2](https://github.com/MeFaisalAnsari/spotify/assets/84059960/2074bfad-3a31-4ddf-9f87-0bec04a4df3f)
 
 ## Technologies Used
+
 - React JS: Frontend JavaScript library for building user interfaces.
 - GraphQL: Used for querying and loading song data.
 - Tailwind CSS: Styling and responsive design.
@@ -27,6 +28,10 @@ https://spotify-faisal.netlify.app/
 - Color.js: Library to extract colors from cover images.
 - Vite: Build tool used for fast development and optimized production builds.
 - Netlify: Hosting the project live.
+
+## Known Issues
+
+- Some songs might not have their background color change due to CORS (Cross-origin resource sharing) restrictions preventing the extraction of colors from cover images. In such cases, a default color will be used as a fallback.
 
 ## Getting Started
 
@@ -57,5 +62,6 @@ npm run dev
 5. Open your web browser and navigate to http://localhost:5173 to access the app.
 
 ## Credits
+
 - Figma design provided by Samespace.
 - GraphQL API provided for loading song data.
